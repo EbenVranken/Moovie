@@ -1,0 +1,69 @@
+body, :after, :before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 8px 40px;
+}
+
+.navbar-brand {
+    font-family: 'Lato Black', sans-serif;
+}
+
+.navbar-brand i {
+    margin-right: 5px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item i {
+    font-size: 20px;
+
+}
+
+.navbar-nav input {
+    color: #707070;
+    border: 2px solid #707070;
+    border-radius: 25px;
+}
+
+.btn {
+    border: none;
+    border-radius: 25px;
+    padding: 0px 30px;
+    color: white;
+    border: 2px solid transparent;
+    background: rgb(28,28,28);
+    background: linear-gradient(90deg, rgba(28,28,28,1) 0%, rgba(64,64,64,1) 100%);
+}
+
+.btn:active {
+    color: #272727;
+    border: 2px solid #272727;
+    padding: 0px 30px;
+
+}
+
+#movies {
+    margin-top: 10px;
+}
+
+#movies .col-md-3 img {
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 960px) {
+    #movies img, #movie img {
+        width: 100%;
+    }
+    
+    #movies .col-md-3 img {
+        height: 390px;
+    }
+}
